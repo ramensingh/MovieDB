@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieDB</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Katibeh&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oleo+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Della+Respira&family=Quattrocento:wght@700&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Css File -->
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+    <!--Font-Awesome-->
+    <script src="https://kit.fontawesome.com/21071d3bb4.js"></script>
+
+    <!-- bootstrap Javascript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <!-- Head Page -->
+
+    <section id="title">
+        <div class="container-fluid">
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">
+                    MovieDB
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#AboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Collections">Collections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Clients">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ContactUs">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Title -->
+
+            <div class="row">
+                <div class="col-lg-6 left-head">
+                    <h1 id="heading">Explore.<br>
+                        <span>Watch.</span><br>
+                        Recommend.</h1>
+
+                    <p id="tagline">All in one stop for Movie Lovers...</p>
+                    <a class="btn btn-primary" href="#AboutUs " role="button">Explore</a>
+                </div>
+                <div class="col-lg-6 right-head">
+                    <div class="back-cover">
+                        <div class="title-image">
+                            <img src="{{ url_for('static', filename='sample1.jpg' ) }}" class="card-img" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+
+    <section id="AboutUs">
+        <div class="container-fluid">
+            <h1 class="head">About Us</h1>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.<span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu
+                    fugiat nulla pariatur.</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.<span> Excepteur sint occaecat cupidatat non proident,</span> sunt in culpa qui
+                officia
+                deserunt mollit anim id est laborum.
+            </div>
+        </div>
+    </section>
+
+    <!-- Collections -->
+
+    <section id="Collections">
+        <div class="container-fluid">
+            <h1 class="head">Discover Our Collections</h1>
+            <p>Latest Movies...</p>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card bg-dark text-white">
+                        <img src="{{ url_for('static', filename='sample1.jpg' ) }}" class="card-img" alt="..." />
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Joker</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-dark text-white">
+                        
+                        <img src="{{ url_for('static', filename='sample3.jpg' ) }}" class="card-img" alt="..." />
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">SpiderMan</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-dark text-white">
+                        <img src="{{ url_for('static', filename='sample2.jpg' ) }}" class="card-img" alt="..." />
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">DeadPool</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-primary" href="#AboutUs " role="button">View All Movies</a>
+        </div>
+    </section>
+
+    <!-- Services -->
+
+    <Section id="Services">
+        <div class="container-fluid">
+            <h1 class="head">Our Services</h1>
+            <p>Why buy from MovieDB?</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <i class="fas fa-search"></i>
+                    <h3>Fastest Search Results</h3>
+                    <p>Lorem Ispum</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Accurate Results</h3>
+                    <p>Lorem Ispum</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fas fa-users"></i>
+                    <h3>User Trusted</h3>
+                    <p>Lorem Ispum</p>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <!-- Clients -->
+
+    <section id="Clients">
+        <div class="container-fluid">
+            <h1 class="head">Features</h1>
+            <p>Insights of What we do..</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="paper">
+                        <i class="fas fa-quote-left"></i>
+                        <p>
+                            <A href="/recc">Recommend Movies</A> :  Find your perfect movie by minimizing the options. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 mid-tag">
+                    <i class="fas fa-quote-left light"></i>
+                    <p>
+                        <A href="/classifier">Review Classifier</A>: Want to know whether the given review is posivtive or negative.   
+                    </p>
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="paper">
+                        <i class="fas fa-quote-left"></i>
+                        <p>
+                            <A href="/">Predicts Success Rate Of Movie</A>: Feature Under Development
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <Footer id="ContactUs">
+        <h3>Find Us On...</h3>
+        <div class="container-fluid">
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fas fa-envelope"></i>
+
+            <p>© Copyright 2021 MovieDB</p>
+        </div>
+    </Footer>
+</body>
+
+</html>

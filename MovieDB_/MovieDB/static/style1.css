@@ -1,0 +1,430 @@
+body,
+html {
+    font-family: poppins;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: "katibeh";
+}
+
+#title {
+    background-color: black;
+    color: #54e346;
+    min-height: 650px;
+}
+
+.back-cover {
+    width: 90%;
+    background: rgb(210, 158, 19);
+    margin-left: 1.5rem;
+    background: linear-gradient(
+45deg
+, rgb(84 227 70) 27%, rgb(82 171 26) 100%);
+    justify-content: center;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    margin-block-end: 3rem;
+    border-radius: 0.5rem 0 0.5rem 0;
+}
+
+.title-image {
+    background: white;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 1.2rem;
+    margin-top: 0.5rem;
+    border-radius: 0 0.5rem 0 0.5rem;
+}
+
+.title-image img {
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 0.7rem
+}
+
+h1#heading {
+    font-size: 4.5rem;
+    color: #54e346;
+    font-weight: 700;
+    font-family: "lato"
+}
+
+h1#heading span {
+    color: antiquewhite;
+}
+
+.col-lg-6.left-head {
+    text-align: justify;
+    padding: 3rem;
+}
+
+p#tagline {
+    font-size: 1.1rem;
+    color: antiquewhite;
+    margin-top: 2rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: black;
+    background: rgb(210, 158, 19);
+    background: linear-gradient(
+45deg
+, rgb(84 227 70) 27%, rgb(82 171 26) 100%);
+    font-family: 'Poppins';
+    font-weight: 500;
+    width: 6rem;
+    margin-top: 2rem;
+    transition: 0.3s ease-in-out;
+}
+
+
+/* Navbar */
+
+a.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+    word-spacing: 0.1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(158 158 157);
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    margin-left: 1rem;
+}
+
+/* ABOUT SECTION */
+
+section#AboutUs {
+    min-height: 400px;
+    text-align: center;
+    margin: 2rem;
+    background: #eaeaea;
+}
+
+#AboutUs h1 {
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    word-spacing: 9px;
+    letter-spacing: 1px;
+    font-size: 3.5rem;
+}
+
+#AboutUs div {
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+#AboutUs div span {
+    color: #54e346;
+    font-weight: 600;
+}
+
+/* COLLECTION SECTION */
+
+section#Collections {
+    min-height: 600px;
+    text-align: center;
+    background: #000000;
+}
+
+#Collections h1 {
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    word-spacing: 9px;
+    letter-spacing: 1px;
+    font-size: 3.5rem;
+    color: #54e346;
+    padding-top: 2rem;
+}
+
+#Collections p {
+    color: darkgray;
+}
+
+#Collections .card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    border-radius: calc(.25rem - 1px);
+    background: linear-gradient(45deg, rgb(51 51 51 / 68%) 27%, rgb(152 152 35 / 88%) 100%);
+}
+
+#Collections .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: black;
+    background: rgb(210, 158, 19);
+    background: linear-gradient(
+45deg
+, rgb(84 227 70) 27%, rgb(82 171 26) 100%);
+    font-family: 'Poppins';
+    font-weight: 500;
+    width: 13rem;
+    margin-top: 3rem;
+    transition: 0.3s ease-in-out;
+}
+
+/* SERVICES section */
+
+section#Services {
+    min-height: 600px;
+    text-align: center;
+    background: #000000;
+}
+
+#Services h1 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    word-spacing: 9px;
+    letter-spacing: 1px;
+    font-size: 3.5rem;
+    color: #54e346;
+    padding-top: 4rem;
+}
+
+#Services p {
+    color: darkgray;
+    margin-bottom: 3.5rem;
+    font-size: 1rem;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+    font-size: 4rem;
+    color: #54e346;
+    background: linear-gradient(
+45deg
+, rgb(84 227 70) 27%, rgb(82 171 26) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+}
+
+#Services h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#Services .row {
+    padding: 1rem;
+}
+
+#Services .row p {
+    font-size: 0.9rem;
+}
+
+
+/* CLIENT Section */
+
+section#Clients {
+    min-height: 400px;
+    text-align: center;
+    margin: 2rem;
+    background: #eaeaea;
+}
+
+#Clients h1 {
+    font-weight: 600;
+    margin-top: 4rem;
+    word-spacing: 9px;
+    letter-spacing: 1px;
+    font-size: 3.5rem;
+}
+
+#Clients div {
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.paper {
+    background-color: #151515;
+    height: 275px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 150px 40px 20px 40px;
+    box-shadow: -20px 20px 25px rgba(0, 0, 0, 0.12);
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 150px 40px 20px 40px;
+    position: relative;
+}
+
+.paper:after {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(
+        45deg
+        , #169a1b 10%, #4fe44d 18%, #a3ffbf 22%, #66e74f 30%, #27ae2b 38%, #5df89b 50%, #eaeaea 50%);
+    border-radius: 0 0 0 10px;
+    box-shadow: -13px 13px 10px rgb(0 0 0 / 30%);
+}
+
+#Clients p {
+    color: #9a9a9a;
+    margin-bottom: 3.5rem;
+    font-size: 1rem;
+}
+
+#Clients .paper p {
+    font-family: 'Poppins', sans-serif;
+    color: #fae2cc;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: initial;
+}
+
+i.fas.fa-quote-left {
+    display: block;
+    text-align: left;
+    font-size: 2rem;
+}
+
+#Clients .mid-tag p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: initial;
+}
+
+/* Footer */
+
+#ContactUs {
+    min-height: 200px;
+    text-align: center;
+    background: #000000;
+}
+
+#ContactUs i {
+    color: #54e346;
+    font-size: 2rem;
+    margin: 3rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+#ContactUs h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #54e346;
+    padding-top: 1rem;
+}
+
+#ContactUs p {
+    color: #54e346;
+    font-size: 1rem;
+    margin-top: 3rem;
+
+}
+
+/* Anchor Tag Styling */
+
+.navbar-collapse a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #54e346;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.navbar-collapse a:after {
+    content: "";
+    position: absolute;
+    background-color: #54e346;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar-collapse a:hover {
+    color: #54e346;
+}
+
+.navbar-collapse a:hover:after {
+    width: 100%;
+}
+
+navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #54e346;
+}
+
+/* Button effects */
+
+.btn-primary:hover {
+    background: rgba(128, 128, 128, 0);
+    border: solid 1px #54e346;
+}
+
+#Collections .btn-primary:hover {
+    background: rgba(128, 128, 128, 0);
+    border: solid 1px #54e346;
+}
+
+.head:after {
+    display: block;
+    height: 3px;
+    background-color: #54e346;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+a.navbar-brand {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    font-weight: 700;
+    background: #54e346;
+    background: linear-gradient(to right, #e2d80e, #d3a013 50%, #ffffff 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+a.navbar-brand:hover {
+    background-position: 0 100%;
+}
+
+.card.bg-dark.text-white {
+    margin-block-end: 2rem;
+}
